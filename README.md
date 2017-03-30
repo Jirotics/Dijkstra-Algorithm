@@ -1,9 +1,10 @@
 # Dijkstra-Algorithm
 # This code implements Dijkstra's algorithm for single source shortest path. The code uses binary heap
-# to implement the priority queue. The program has 2 classes the vertex and the edge class. The vertex
-# can have 0 or more edges. All vertices put together in an arraylist form the graph. The program works for an undirected graph,
-# but will also work for a directed graph by modifying out lines 52, 81, and 83. The program has 2 main variables, an arraylist
-# use to represent the binary heap, and an array used to keep track of each vertex's location.
+# to implement the priority queue. 
+  The program has 2 classes the vertex and the edge class. The vertex
+can have 0 or more edges. All vertices put together in an arraylist form the graph. The program works for an undirected graph,
+but will also work for a directed graph by modifying out lines 52, 81, and 83. The program has 2 main variables, an arraylist
+used to represent the binary heap, and an array used to keep track of each vertex's location.
 
 INPUT FORMAT: The first line of each file below contains the number of vertices and the number of edges in the graph 
 (in the format "n=XXXX m=XXXXX"). The rest of the file is organized as follows: 
